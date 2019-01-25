@@ -1,0 +1,599 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+}
+
+
+html::-webkit-scrollbar{
+	width:0px;
+	}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-weight: normal;
+}
+
+header {
+	height: 60px;
+	width: 100%;
+	min-width: 700px;
+	/*margin-top: 20px;*/
+	background: rgba(255, 255, 255, 0.1);
+	position: fixed;
+	z-index: 999;
+}
+
+#logo {
+	width: 119px;
+	height: 40px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
+	left: 19%;
+	top: 16%;
+}
+
+nav {
+	/*width: 25%;*/
+	height: 60px;
+	line-height: 60px;
+	position: absolute;
+	right: 15%;
+}
+
+nav a {
+	display: inline-block;
+	color: rgba(255, 255, 255, .5);
+	font-size: 16px;
+	font-family: "MicrosoftYaHei";
+	margin: 0 20px;
+}
+
+.section2 {
+	background: url(../images/home_banner_1.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.section2 p {
+	width: 100%;
+	line-height: 28px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Hiragino Sans GB W3";
+	position: absolute;
+	bottom: 8%;
+}
+
+.section2 img:nth-child(1) {
+	width: 664px;
+	height: 114px;
+	position: absolute;
+	left: -1000px;
+	top: 34%;
+}
+
+.section2 img:nth-child(2) {
+	width: 1159px;
+	height: 83px;
+	position: absolute;
+	right: -2000px;
+	margin-top: 36px;
+}
+
+.section3 {
+	background: url(../images/home_img_1.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.section3 img:nth-child(1) {
+	width: 447px;
+	height: 106px;
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	display: none;
+}
+
+.section3 img:nth-child(2) {
+	width: 456px;
+	height: 105px;
+	position: absolute;
+	right: 20%;
+	margin-top: 70px;
+	display: none;
+}
+
+#about .left {
+	width: 50%;
+	height: 612px;
+	background: url(../images/img_about_default.png) no-repeat center center;
+	background-size: 100%;
+	float: left;
+	overflow: hidden;
+	transition: all 0.6s;
+	color: #fff;
+	text-align: center;
+}
+
+.left h5 {
+	font-size: 4rem;
+	font-weight: lighter;
+	font-family: "helvetica-light";
+	line-height: 70px;
+	width: 50%;
+	margin: auto auto;
+	margin-top: 30%;
+}
+
+.left p {
+	font-size: 16px;
+	font-family: "arial, helvetica, sans-serif";
+	line-height: 42px;
+	width: 50%;
+	margin: auto auto;
+}
+
+#about .left:hover {
+	background: url(../images/img_about_select.png) no-repeat center center;
+	background-size: 120%;
+	transition: all 0.6s;
+}
+
+#about .right {
+	width: 50%;
+	height: 612px;
+	float: right;
+	color: #fff;
+	text-align: center
+}
+
+.right h1 {
+	font-size: 40px;
+	line-height: 70px;
+	margin-top: 13%;
+	font-family: "helvetica-light";
+}
+
+.right h2 {
+	font-size: 40px;
+	line-height: 40px;
+	font-family: "STHeitiSC-Light";
+}
+
+.l_technology h1 {
+	margin-top: 20%;
+}
+
+.technology {
+	width: 100%;
+	height: 306px;
+	background: url(../images/img_technology_default.png) no-repeat center center;
+	background-size: 100%;
+	overflow: hidden;
+	-webkit-transition: all 0.6s ease 0s;
+	-moz-transition: all 0.6s ease 0s;
+	-o-transition: all 0.6s ease 0s;
+	transition: all 0.6s ease 0s;
+}
+
+.technology:hover {
+	background: url(../images/img_technology_select.png) no-repeat center center;
+	-webkit-transition: all 0.6s ease 0s;
+	-moz-transition: all 0.6s ease 0s;
+	-o-transition: all 0.6s ease 0s;
+	transition: all 0.6s ease 0s;
+	background-size: 120%;
+}
+
+.bt_technology {
+	width: 100%;
+	height: 50%;
+}
+
+.l_technology {
+	clear: both;
+	width: 50%;
+	height: 306px;
+	background: url(../images/img_services_default.png) no-repeat center center;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all 0.6s;
+	float: left;
+}
+
+.l_technology:hover {
+	background: url(../images/img_services_select.png) no-repeat center center;
+	transition: all 0.6s;
+	background-size: 120%;
+}
+
+.r_technology {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+.r_technology p {
+	width: 100%;
+	height: 50%;
+	background: url(../images/img_win_default.png) no-repeat center center;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all 0.6s;
+	;
+	font-size: 30px;
+	line-height: 50px;
+	color: #fff;
+	font-family: "STHeitiSC-Light";
+}
+
+.health {
+	display: block;
+	font-family: "helvetica-light";
+	margin-top: 6%;
+}
+
+.r_technology p:hover {
+	background: url(../images/img_win_select.png) no-repeat center center;
+	transition: all 0.6s;
+	background-size: 120%;
+}
+
+.r_technology p:nth-child(1) {
+	width: 100%;
+	height: 50%;
+	background: url(../images/img_health_default.png) no-repeat center center;
+	background-size: 100%;
+	overflow: hidden;
+	transition: all 0.6s;
+}
+
+.r_technology p:nth-child(1):hover {
+	background: url(../images/img_health_select.png) no-repeat center center;
+	transition: all 0.6s;
+	background-size: 120%;
+}
+
+.contect {
+	height: 220px;
+	clear: both;
+	width: 100%;
+	color: #fff;
+	clear: both;
+	font-family: "STHeitiSC-Light";
+}
+
+.contect ul {
+	width: 100%;
+	height: 180px;
+	background: url(../images/bottom_bg.png) no-repeat center center;
+}
+
+.contect ul li {
+	width: 33%;
+	text-align: center;
+	float: left;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	margin-top: 36px;
+	padding-top: 70px;
+}
+
+.contect ul li:nth-child(1) {
+	background: url(../images/icon_mail.png) no-repeat center 20%;
+	background-size: 10%;
+}
+
+.contect ul li:nth-child(2) {
+	background: url(../images/icon_map.png) no-repeat center 20%;
+	background-size: 10%;
+}
+
+.contect ul li:nth-child(3) {
+	background: url(../images/icon_phone.png) no-repeat center 20%;
+	background-size: 10%;
+}
+
+.contect p {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	background: #000;
+}
+
+
+/*-------------------service-------------------------*/
+
+.service {
+	width: 100%;
+	height: 100%;
+	background: url(../images/banner_fuwu.png) no-repeat center center;
+	background-size: 100% 100%;
+	min-width: 900px;
+}
+
+.serve {
+	width: 36%;
+	height: 40%;
+	position: absolute;
+	left: 19%;
+	top: 16%;
+}
+
+.serve h1 {
+	height: 146px;
+	width: 364px;
+	background: rgba(255, 255, 255, 0.14);
+	color: #fff;
+	position: relative;
+}
+
+.serve h1 img {
+	width: 287px;
+	height: 126px;
+	position: absolute;
+	top: 7%;
+	left: 10%;
+}
+
+.serve p {
+	width: 100%;
+	min-width: 364px;
+	color: #fff;
+	line-height: 44px;
+	font-size: 16px;
+	font-family: "STHeitiSC-Light";
+	margin-top: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 40px;
+	background: #000;
+	font-family: "STHeitiSC-Light";
+	line-height: 40px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+
+
+/*.service {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	min-width: 900px;
+}*/
+
+
+/*-----------------------about------------------------------*/
+
+.about {
+	width: 100%;
+	height: 100%;
+	min-width: 900px;
+}
+
+.about_banner {
+	width: 100%;
+	height: 50%;
+	background: url(../images/banner_guanyu.png) no-repeat center center;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: Center;
+}
+
+.about_txt {
+	width: 633px;
+	height: 154px;
+	border: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	font-family: "STHeitiSC-Light";
+}
+
+.about_txt h1 {
+	width: 80%;
+	/*width: 80%;
+	margin: 20px auto;
+	display: inline-block;
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	display: -webkit-box;
+	display: box;
+	box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	margin-top: 34px;
+	float: left;
+	margin: 0 30px;*/
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.about_txt h1 p {
+	float: left;
+	margin: 0 30px;
+}
+
+.about_txt h2 {
+	font-size: 18px;
+}
+
+.Introduction h1 {
+	width: 200px;
+	height: 52px;
+	margin: 40px auto;
+	background: url(../images/material_bg.png) no-repeat center center;
+	background-size: 100% 100%;
+	font-family: "Hiragino Sans GB W3";
+	text-align: center;
+	line-height: 52px;
+	color: #333333;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.Introduction h1:hover {
+	background-size: 90% 90%;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.Introduction p {
+	width: 900px;
+	margin: 0 auto;
+	line-height: 48px;
+	font-size: 16px;
+	color: #333333;
+}
+
+.foot {
+	width: 100%;
+	height: 40px;
+	font-family: "STHeitiSC-Light";
+	line-height: 40px;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+	clear: both;
+	border-top: 1px solid #D1D1D1;
+	margin-top: 60px;
+}
+
+
+/*------------------------connect-------------------------*/
+
+.connect {
+	width: 100%;
+	height: 100%;
+	min-width: 900px;
+}
+
+.connect_banner {
+	width: 100%;
+	height: 50%;
+	background: url(../images/banner_lianxiwomen.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.connect_us {
+	width: 200px;
+	height: 52px;
+	margin: 40px auto;
+	background: url(../images/material_bg.png) no-repeat center center;
+	background-size: 100% 100%;
+	font-family: "Hiragino Sans GB W3";
+	text-align: center;
+	line-height: 52px;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.connect_us:hover {
+	background-size: 90% 90%;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.connect_us h1 {
+	color: #333333;
+}
+
+.address {
+	width: 100%;
+}
+
+.map {
+	width: 50%;
+	height: 300px;
+	float: left;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#dituContent {
+	width: 70%;
+	height: 100%;
+	border: #ccc solid 1px;
+	position: absolute;
+	right: 0;
+}
+
+.tel {
+	float: right;
+	width: 50%;
+	line-height: 36px;
+	color: #333333;
+	font-size: 18px;
+}
+
+.tel p {
+	margin-left: 70px;
+}
+
+#cityName {
+	outline: none;
+}
+
+#allmap {
+	height: 100%;
+	width: 66%;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	position: absolute;
+	right: 0;
+}
+
+#r-result {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#search {
+	background: #fff;
+	border: 1px solid #f5f5f5;
+	padding: 1px 2px;
+	outline: none;
+	color: #000;
+}
+
+#search:active {
+	background: #f5f5f5;
+}

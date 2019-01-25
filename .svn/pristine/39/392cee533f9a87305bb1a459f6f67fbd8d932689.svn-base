@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<title>万枫（医疗）</title>
+		<meta http-equiv="keywords"  content="万枫,医疗,医疗科技，医疗发展,万枫医疗,万枫医疗科技发展有限公司,上海万枫,手表,手环,健康管理,服务,医疗器械,心跳,血压,心率,健康指数">
+			<link rel="stylesheet" type="text/css" href="js/jquery.fullPage.css" />
+			<link rel="stylesheet" type="text/css" href="css/index.css" />
+			<link rel="icon" href="favicon.ico" type="image/x-icon">
+			<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body>
+
+		<header class="topper" id="topper" style="background: none;">
+			<div id="logo">
+				<img id="logo1" src="images/logo_white.png" />
+			</div>
+			<nav>
+				<a href="index.html" style="color: #fff;">首页</a>
+				<a href="service.html">服务</a>
+				<a href="about.html">关于</a>
+				<a href="connect.html">联系我们</a>
+			</nav>
+		</header>
+
+		<div id="fullpage">
+			<div class="section section2" id="section2" style="font-size:0">
+				<img id="pic1" src="images/home_text_wanfeng.png" />
+				<img id="pic2" src="images/home_text_2.png" />
+				<p>专注健康医疗解决方案</p>
+			</div>
+			<!--<div class="section section3" id="section3" style="font-size:0">
+				<img src="images/text_1.png" />
+				<img src="images/text_2.png" />
+			</div>-->
+			<!--<div class="section section4" id="about">
+				<div class="connect">
+					<div class="left">
+						<h5>About Us</h5>
+						<p>万枫医疗科技发展(上海)有限公司(WFMT)是一家医疗、科技、服务为一体的高新研发服务公司。公司服务涵盖于华东、华中等大部分地区，目前用户量呈稳定性增长趋势</p>
+					</div>
+					<div class="right">
+						<div class="technology">
+							<h1>Technology</h1>
+							<h2>科 技</h2>
+						</div>
+						<div class="bt_technology">
+							<div class="l_technology">
+								<h1>Services</h1>
+								<h2>服 务</h2>
+							</div>
+							<div class="r_technology">
+								<p>
+									<span class="health">Health</span>
+									<span>健 康</span>
+								</p>
+								<p>
+									<span class="health">win-win</span>
+									<span>共 赢</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="contect">
+						<ul>
+							<li>wanfeng@wanfengmt.com</li>
+							<li>上海市静安区大宁路701歌林商务大厦6层603室</li>
+							<li>021-56081326</li>
+						</ul>
+						<p>Copyright© 2018 WanFeng Medical Science And Technology Development ( SHANGHAI ) Corp.Ltd 万枫医疗科技发展(上海)有限公司 版权所有 沪ICP备111221212号-1</p>
+					</div>
+				</div>
+			</div>-->
+		</div>
+
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.easings.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fullpage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/scrolloverflow.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				
+				var content = '<div class="section section3" id="section3" style="font-size:0"><img src="images/text_1.png" /><img src="images/text_2.png" /></div><div class="section section4" id="about"><div class="connect"><div class="left"><h5>About Us</h5><p>万枫医疗科技发展(上海)有限公司(WFMT)是一家医疗、科技、服务为一体的高新研发服务公司。公司服务涵盖于华东、华中等大部分地区，目前用户量呈稳定性增长趋势</p></div><div class="right"><div class="technology"><h1>Technology</h1><h2>科 技</h2></div><div class="bt_technology"><div class="l_technology"><h1>Services</h1>'
+							+	'<h2>服 务</h2>'
+							+	'</div>'
+							+	'<div class="r_technology">'
+							+	'	<p>'
+							+	'		<span class="health">Health</span>'
+							+	'		<span>健 康</span>'
+							+	'	</p>'
+							+	'	<p>'
+							+	'		<span class="health">win-win</span>'
+							+	'		<span>共 赢</span>'
+							+	'	</p>'
+							+	'</div>'
+						+	'</div>'
+					+	'</div>'
+					+	'<div class="contect">'
+					+	'	<ul>'
+					+	'		<li>wanfeng@wanfengmt.com</li>'
+					+	'		<li>上海市静安区大宁路701歌林商务大厦6层603室</li><li>021-56081326</li></ul><p>Copyright© 2018 WanFeng Medical Science And Technology Development ( SHANGHAI ) Corp.Ltd 万枫医疗科技发展(上海)有限公司 版权所有 沪ICP备111221212号-1</p></div></div></div>';
+				
+				$("#fullpage").append(content);
+				
+				$(window).bind("load resize", function() {
+					$(".l_technology").css({
+						"height": $('.r_technology').height()
+					});
+					$(".left").css({
+						"height": $('.right').height()
+					});
+				});
+
+				$('#fullpage').fullpage({
+					afterLoad: function(anchorLink, index) {
+						if(index == 1) {
+							$('#topper').animate({
+								height: '60px',
+								top: '20px'
+							});
+							$('#topper').css({
+								"background-color": "rgba(255,255,255,0)",
+								'height': '60px'
+							});
+							$('.section2').find('#pic1').delay(300).animate({
+								left: '10%'
+							}, 1000, 'easeOutExpo');
+							$('.section2').find('#pic2').delay(300).animate({
+								right: '5%'
+							}, 1000, 'easeOutExpo');
+						}
+						if(index == 2) {
+							$('.section3').find('img').fadeIn(2000);
+							$('#topper').animate({
+								height: '60px',
+								top: '0'
+							});
+							$('#topper').css({
+								"background-color": "rgba(255,255,255,0.1)"
+							});
+						}
+					},
+					onLeave: function(index, direction) {
+						if(index == 1) {
+							$('.section2').find('#pic1').delay(200).animate({
+								left: '-1000px'
+							}, 1000, 'easeOutExpo');
+							$('.section2').find('#pic2').delay(200).animate({
+								right: '-2000px'
+							}, 1000, 'easeOutExpo');
+						}
+						if(index == 2) {
+							$('.section3').find('img').fadeOut(1500);
+						}
+					},
+					afterRender: function(index) {
+						if(index == 1) {
+							$('.section2').find('#pic1').delay(300).animate({
+								left: '10%'
+							}, 1000, 'easeOutExpo');
+							$('.section2').find('#pic2').delay(300).animate({
+								right: '5%'
+							}, 1000, 'easeOutExpo');
+						}
+						if(index == 2) {
+							$('.section3').find('img').fadeIn(2000);
+						}
+					},
+					scrollOverflow: true
+				});
+
+				$(window).resize(function() {
+					autoScrolling();
+				});
+
+				function autoScrolling() {
+					var $ww = $(window).width();
+					if($ww < 1024) {
+						$.fn.fullpage.setAutoScrolling(false);
+					} else {
+						$.fn.fullpage.setAutoScrolling(true);
+					}
+				}
+				autoScrolling();
+
+			});
+
+			//			if ($(window).width() > 800) {	
+			//				$(window).bind("load resize", function () {	
+			//					$(".plus_right2").css({"height":$('.plus_left1').height() + $('.plus_left3').height() + 30 });					
+			//				}); 
+			//			}
+
+//			function preloader() {
+//				if(document.getElementById) {
+//					document.getElementById("section2").style.background = "url(images/home_banner_1.png) no-repeat center center";
+//					document.getElementById("section3").style.background = "url(images/home_img_1.png) no-repeat center center";
+//				}
+//			}
+//
+//			function addLoadEvent(func) {
+//				var oldonload = window.onload;
+//				if(typeof window.onload != 'function') {
+//					window.onload = func;
+//				} else {
+//					window.onload = function() {
+//						if(oldonload) {
+//							oldonload();
+//						}
+//						func();
+//					}
+//				}
+//			}
+//			addLoadEvent(preloader);
+		</script>
+
+	</body>
+
+</html>
